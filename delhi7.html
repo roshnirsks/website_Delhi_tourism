@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.ty
+{font-size:20px;font-family:Arial Rounded MT;color:dodgerblue;}
+li:hover
+{font-size:20px;font-family:Arial Rounded MT;color:lightgreen;}
+.mySlides {display:none;}
+</style>
+
+</head>
+<body>
+<font style="font-family: Segoe script;font-size: 80px;color:#8A2BE2;"><center><img src="d.jpg" height="90px" width="100px" align="center" />ilWaliDilli</center></font>
+
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+
+<li><a href="delhi.html" >DilWaliDilli</a></li>
+        <li><a href="delhi1.html" >About Delhi</a></li>
+        <li><a href="delhi2.html">Tourist Places</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" target="_blank">Accomodation <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="delhi3.html" >Luxury Hotels</a></li>
+            <li><a href="delhi4.html" >Semi-luxury Hotels</a></li>
+            <li><a href="delhi5.html" >Budget Hotels</a></li>
+          </ul>
+        </li>
+       <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Transport <span class="caret">
+    </span></a>
+          <ul class="dropdown-menu">
+            <li><a href="delhi6.html">Metro Rail</a></li>
+            <li><a href="delhi7.html">City Bus</a></li>
+            <li><a href="delhi8.html">Auto Rickshaw</a></li>
+          <li><a href="delhi9.html" >Taxi</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Entertainment
+ <span class="caret"> </span></a>
+          <ul class="dropdown-menu">
+            <li><a href="delhi12.html" >Art Gallery</a></li>
+            <li><a href="delhi10.html" >Movie Theatre</a></li>
+            <li><a href="delhi11.html">Auditorium</a></li>
+          <li><a href="delhi13.html">Discotheques</a></li>
+          </ul>
+        </li>
+ 
+ 
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="sign.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div style="background-color:black;">
+<center>
+<span style="font-family:Comic Sans MS; font-size:100px;color:white;"> 
+CITY BUS</span></center></div>
+<div>
+  <img class="mySlides" src="b1.jpg" style="width:100%;height:300px;">
+  <img class="mySlides" src="b5.jpg" style="width:100%;height:300px;">
+  <img class="mySlides" src="b3.jpg" style="width:100%;height:300px">
+<img class="mySlides" src="b4.jpg" style="width:100%;height:300px">
+<img class="mySlides" src="b2.jpg" style="width:100%;height:300px">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<br><br>
+<div style="font-family:bedrock;font-size:20px;text-align:justify;margin:30px">
+<span style="font-family:Arial Rounded MT;font-size:30px;margin:10px">City Bus:</span><br>
+One of the cheapest modes of transport in Delhi consists of the environment friendly CNG buses. Delhi Transport
+ Corporation has the World's largest fleet of public transoprt running on environment friendly clean CNG fuel.<br><br>
+<center>
+<span style="font-family:Arial Rounded MT;font-size:20px;">Ordinary Stage Carrier Buses:</span><br>
+<table border="2" cellspacing="0" width="700px" height="150px"><b>
+<tr><td bgcolor="dodgerblue">DISTANCE</td><td bgcolor="dodgerblue">FARE FOR ADULT</td>
+<td bgcolor="dodgerblue">FARE FOR CHILDREN</td></tr>
+<tr><td>Upto 4 km.</td><td>Rs. 5.00</td><td>Rs.3.00</td></tr>
+<tr><td>From 4 km. to 10 km.</td><td>Rs.10.00</td><td>Rs.5.00</td></tr>
+<tr><td>Above 10 km.</td><td>Rs.15.00</td><td>Rs.8.00</td></tr>
+</table><br></b>
+<span style="font-family:Arial Rounded MT;font-size:20px;">Air-conditioned Stage Carrier Buses:</span><br>
+<table border="2" cellspacing="0" width="700px" height="200px">
+<tr><td bgcolor="dodgerblue">DISTANCE</td><td bgcolor="dodgerblue">FARE FOR ADULT</td><td bgcolor="dodgerblue">
+FARE FOR CHILDREN</td></tr>
+<tr><td>Upto 4 km.</td><td>Rs. 10.00</td><td>Rs.5.00</td></tr>
+<tr><td>From 4 km. to 8 km.</td><td>Rs.15.00</td><td>Rs.8.00</td></tr>
+<tr><td>From 8 km. to 12 km.</td><td>Rs.20.00</td><td>Rs.10.00</td></tr>
+<tr><td>Above 12 km.</td><td>Rs.25.00</td><td>Rs.13.00</td></tr>
+</table><br>
+<span style="font-family:Arial Rounded MT;font-size:20px;">Stage Carrieges-Metro Feeder Buses:</span><br>
+<table border="2" cellspacing="0" width="700px" height="100px">
+<tr><td bgcolor="dodgerblue">DISTANCE</td><td bgcolor="dodgerblue">FARE FOR ADULT</td><td bgcolor="dodgerblue">
+FARE FOR CHILDREN</td></tr>
+<tr><td>Upto 8 km.</td><td>Rs. 7.00</td><td>Rs.5.00</td></tr>
+<tr><td>Above 8 km.</td><td>Rs.10.00</td><td>Rs.8.00</td></tr>
+</table><br><br>
+</center>
+<span style="font-family:Arial Rounded MT;font-size:30px;">Delhi Darshan - Dedicated Tourist Bus Service:</span><br>
+DTC Bus Services conducts Delhi Sight Seeing Tours for tourists visiting Delhi. DTC daily operates Sight Seeing
+ Tours from Scindia House in Connaught Place. The Delhi Darshan ticket of Rs. 100/- will be valid in all city services 
+on the pattern of DTC Green Card (i.e. commuters can travel on any DTC ordinary fare bus free of cost for the day).
+ Children between the age of 5 - 12 years will be charged half ticket i.e. Rs. 50/-.<br><br>
+ 
+<span style="font-family:Arial Rounded MT;font-size:30px;">Bus Routes:</span><br>
+There are numerous bus routes connecting various destinations in Delhi. There are about 814 routes, out of these
+ routes DTC buses are plying on 750 routes on Delhi Roads. DTC's ‘Outer Mudrika (OMS)' bus route is the longest 
+one encircling the entire Delhi and covering a distance of 102 Kms.<br><br>
+</div>
+</body>
+</html>
+

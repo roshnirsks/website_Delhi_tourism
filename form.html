@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+.ty
+{font-size:20px;font-family:Arial Rounded MT;color:dodgerblue;}
+li:hover
+{font-size:20px;font-family:Arial Rounded MT;color:lightgreen;}
+.mySlides {display:none;}
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: grey;
+  background: pink;
+}
+
+.container {
+ max-width: 500px;
+  width: 100%;
+  margin: 0 auto; 
+  position: relative;
+}
+
+
+#contact {
+  background: white;
+  padding: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;  
+}
+
+#contact h3 {
+  
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  width: 100%;
+  padding: 0px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid grey;
+  background:white;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"],
+ #contact button[type="reset"]{
+ 
+  width: 100%;
+  border: none;
+  background: purple;
+  color: white;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+</style>
+
+
+<script type="text/javascript">
+function fun()
+{
+alert("welcome to the hotel");
+}
+</script>
+
+</head>
+<body>
+<div style="background-color:white"><font style="font-family: Segoe script;font-size: 80px;color:#8A2BE2;"><center><img src="d.jpg" height="90px" width="100px" align="center" />ilWaliDilli</center></font>
+</div>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+
+<li><a href="delhi.html" >DilWaliDilli</a></li>
+        <li><a href="delhi1.html" >About Delhi</a></li>
+        <li><a href="delhi2.html">Tourist Places</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" target="_blank">Accomodation <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="delhi3.html" >Luxury Hotels</a></li>
+            <li><a href="delhi4.html" >Semi-luxury Hotels</a></li>
+            <li><a href="delhi5.html" >Budget Hotels</a></li>
+          </ul>
+        </li>
+       <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Transport <span class="caret">
+    </span></a>
+          <ul class="dropdown-menu">
+            <li><a href="delhi6.html">Metro Rail</a></li>
+            <li><a href="delhi7.html">City Bus</a></li>
+            <li><a href="delhi8.html">Auto Rickshaw</a></li>
+          <li><a href="delhi9.html" >Taxi</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Entertainment
+ <span class="caret"> </span></a>
+          <ul class="dropdown-menu">
+            <li><a href="delhi12.html" >Art Gallery</a></li>
+            <li><a href="delhi10.html" >Movie Theatre</a></li>
+            <li><a href="delhi11.html">Auditorium</a></li>
+          <li><a href="delhi13.html">Discotheques</a></li>
+          </ul>
+        </li>
+ 
+ 
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="sign.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<section class="container">  
+  <form id="contact">
+    <h3>Hotel Booking</h3>
+    <fieldset>
+      <input placeholder="Your name" type="text" required >
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email"  required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" required>
+    </fieldset>
+     <fieldset>
+     	<label>Check-in Date:</label>
+      <input type="date" required>
+    </fieldset>
+      <fieldset>
+     	<label>Check-out Date:</label>
+      <input type="date" required>
+    </fieldset>
+   <fieldset>
+     	<label>Type Of Rooms:</label>
+      <select>
+                     <option value="0" selected>Select Room/Suite </option>
+                     <option value="1"> Standard </option>
+                     <option value="2"> Deluxe </option>
+                     <option value="3"> Superior Deluxe </option>
+                     <option value="4"> Premier Deluxe  </option>
+                     
+                 </select>
+             </fieldset>
+      <fieldset>
+     	<label>Number Of Rooms:</label>
+      <select >
+                     <option value="0"> 0 </option>
+                     <option value="1"> 1 </option>
+                     <option value="2"> 2 </option>
+                     <option value="3"> 3 </option>
+                     <option value="4"> 4 </option>
+                     <option value="5"> 5 </option>
+                     <option value="6"> 6 </option>
+                     <option value="7"> 7 </option>
+                 </select>
+    </fieldset>
+       <fieldset>
+     	<label>Number Of Persons:</label>
+      <select>
+                     <option value="0"> 0 </option>
+                     <option value="1"> 1 </option>
+                     <option value="2"> 2 </option>
+                     <option value="3"> 3 </option>
+                     <option value="4"> 4 </option>
+                     <option value="5"> 5 </option>
+                 </select>
+    </fieldset>
+    <fieldset>
+    	
+      <button name="submit" onclick=fun() type="submit" id="contact-submit">Submit</button>
+    </fieldset>
+     <fieldset>
+    	
+      <button name="reset" type="reset" id="contact-submit">Reset</button>
+    </fieldset>
+  </form>
+</section>
+</body>
+</html>

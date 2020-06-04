@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.ty
+{font-size:20px;font-family:Arial Rounded MT;color:dodgerblue;}
+li:hover
+{font-size:20px;font-family:Arial Rounded MT;color:lightgreen;}
+.mySlides {display:none;}
+</style>
+
+</head>
+<body>
+<font style="font-family: Segoe script;font-size: 80px;color:#8A2BE2;"><center><img src="d.jpg" height="90px" width="100px" align="center" />ilWaliDilli</center></font>
+
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+
+<li><a href="delhi.html" >DilWaliDilli</a></li>
+        <li><a href="delhi1.html" >About Delhi</a></li>
+        <li><a href="delhi2.html">Tourist Places</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" target="_blank">Accomodation <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="delhi3.html" >Luxury Hotels</a></li>
+            <li><a href="delhi4.html" >Semi-luxury Hotels</a></li>
+            <li><a href="delhi5.html" >Budget Hotels</a></li>
+          </ul>
+        </li>
+       <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Transport <span class="caret">
+    </span></a>
+          <ul class="dropdown-menu">
+            <li><a href="delhi6.html">Metro Rail</a></li>
+            <li><a href="delhi7.html">City Bus</a></li>
+            <li><a href="delhi8.html">Auto Rickshaw</a></li>
+          <li><a href="delhi9.html" >Taxi</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Entertainment
+ <span class="caret"> </span></a>
+          <ul class="dropdown-menu">
+            <li><a href="delhi12.html" >Art Gallery</a></li>
+            <li><a href="delhi10.html" >Movie Theatre</a></li>
+            <li><a href="delhi11.html">Auditorium</a></li>
+          <li><a href="delhi13.html">Discotheques</a></li>
+          </ul>
+        </li>
+ 
+ 
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="sign.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="background-color:black;">
+<center>
+<span style="font-family:Comic Sans MS; font-size:100px;color:white;"> 
+AUTO RICKSHAW</span></center></div>
+<div>
+  <img class="mySlides" src="a3.jpg" style="width:100%;height:300px;">
+  <img class="mySlides" src="a5.jpg" style="width:100%;height:300px">
+<img class="mySlides" src="a4.jpg" style="width:100%;height:300px">
+<img class="mySlides" src="a1.jpg" style="width:100%;height:300px">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<br><br>
+
+<div style="font-family:bedrock;font-size:20px;text-align:justify;margin:30px">
+<span style="font-family:Arial Rounded MT;font-size:30px;margin:10px">Auto Rickshaw:</span><br>
+Autos are a great way of seeing a city. They are less expensive than taxis and unlike buses, they take you to the
+ doorstep of your destination.<br><br>
+<b>The fares chargeable by the operators of the auto-rickshaws in national Capital Territory of delhi shall be as under:
+</b> </div>
+<table border="2px" cellspacing="0" height="200px" width="100%px">
+<tr><td bgcolor="dodgerblue">Auto-Rickshaw</td><td>Rs 25/- for first fall of 2 Kilometer (upon downing the meter) and thereafter Rs. 8/-
+ per Kilometer for every additional Kilometer</td></tr>
+<tr><td>Night Charges</td><td>25% of the fare (11:00 PM to 5:00 AM)</td></tr>
+<tr><td bgcolor="dodgerblue">Waiting Charges</td><td>Rs 30/- per hour or part thereof (Subject to a minimum of 15 minutes stay)</td></tr>
+<tr><td>Luggage</td><td>Rs. 7.50/- shall be charged as extra luggage charges whereas the driver/ operator shall not 
+charge and money for a shopping bag or a small suitcase</td></tr>
+</table><br><br>
+</body>
+</html>
