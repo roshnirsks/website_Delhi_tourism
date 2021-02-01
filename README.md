@@ -1,18 +1,18 @@
 # website_Delhi_tourism
 using bootstrap, css,html
 
-DilWaliDilli
+##DilWaliDilli
 
-this website contains different sections:
+##this website contains different sections:
 
-1.About Delhi
+*About Delhi
 
-2.Tourist places in Delhi
+*Tourist places in Delhi
 
-3.Accomodation (description of hotels)
+*Accomodation (description of hotels)
 
-4.Entertainment(art gallery,auditorium,etc)
+*Entertainment(art gallery,auditorium,etc)
 
-5.Transport (metro,buses,taxes)
+*Transport (metro,buses,taxes)
 
 
